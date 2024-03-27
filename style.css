@@ -3,9 +3,80 @@
     padding: 0px;
     font-family: "Work Sans";
 }
-/* .work-sans-<uniquifier> {
-    font-family: "Work Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-  } */
+ /* Header style section  */
+
+ header{
+    background: rgba(255, 144, 14, 0.10);
+    padding: 70px 240px;
+
+ }
+ nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+ }
+ nav > ul{
+    display: flex;
+ }
+ nav > ul > li{
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 500;
+    font-size: 1rem;
+ }
+ nav > ul > li > a{
+    text-decoration: none;
+    color: #424242;
+    
+ }
+ .nav-tittle{
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+ }
+ /* banner-style  */
+ .banner-content{
+   max-width: 862;
+   text-align: center;
+   margin: 0 auto;
+ }
+ .banner-tittle{
+    margin-top: 50px;
+    font-size: 60px;
+    font-weight: 700;
+    color:#131313
+    
+ }
+ .banner-discription{
+    color: #727272;
+    margin-top: 10px;
+ }
+
+ /* shared-style  */
+
+ 
+ .btn-prymare{
+    color: #FFFFFF;
+    border-radius: 8px;
+    background: #FF900E;
+    padding: 15px;
+    font-size: 20px;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 15px;
+ }
+
+ .btn-prymare:hover{
+    background: #ffa600;
+    color: #FFFFFF;
+    cursor: pointer;
+ }
+ .banner-img{
+    width: 1000px;
+    height: 600px;
+    margin: 0 130px;
+    margin-top: 73px;
+    
+ }
+ 
