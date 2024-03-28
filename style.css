@@ -297,13 +297,24 @@ body{
     border-radius: 8px;
     border: 1px solid #FF900E;
 }
+.project-tittle{
+    margin-left: 20px;
+}
+.project-discription{
+    margin-left: 20px;
+}
 .box-container{
+    width: 100vw;
+    height: 80vh;
+    /* background-color: #727272; */
     display: flex;
-    margin-top: 200px;
+    margin-left: auto;
+    margin-top: 100px ;
     /* align-items: center; */
     text-align: center;
     justify-content: center;
     gap: 124px;
+    
 }
 .icon-one{
     margin-top: 30px;
@@ -318,6 +329,54 @@ body{
     font-size: 20px;
     font-weight: 600;
 }
+
+
+
+
+
+.Sponspors-conatiner{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+    /* width: 500vw;
+    height: 105vh; */
+    /* background-color: #e71d1d; */
+}
+.Sponspors-info{
+    align-items: center;
+    margin: 0 auto;
+}
+.Sponspors-tittle{
+    margin-bottom: 24px;
+}
+
+
+.Sponspors-cards{
+    display: flex;
+    margin-top: 50px;
+    width: 100vw;
+    height: 10vw;
+    /* background-color: #ffa600; */
+    text-align: center;
+}
+.card{
+    width: 153.333px;
+    height: 10px;
+    /* margin: 10px 10px 10px 10px; */
+    margin-top: 30px;
+    margin-left: 150px;
+}
+.copyrigh{
+    width: 1000px;
+    display: flex;
+    height: 50px;
+    border-radius: 8px;
+    background: #FFF4E7;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
 
 
 
